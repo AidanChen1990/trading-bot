@@ -13,8 +13,9 @@ CLAUDE_MODEL = "claude-opus-4-8"
 FINMIND_API_KEY = os.getenv("FINMIND_API_KEY", "")
 FINMIND_BASE_URL = "https://api.finmindtrade.com/api/v4"
 
-# === LINE Notify ===
-LINE_NOTIFY_TOKEN = os.getenv("LINE_NOTIFY_TOKEN", "")
+# === Telegram ===
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
 # === Webhook 安全驗證 ===
 WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET", "your_secret_here")
